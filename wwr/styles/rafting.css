@@ -102,3 +102,41 @@ section a:hover {
     columns: var(--accent2-color);
 }
 
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+footer .social-media{
+    display: flex;
+    justify-content: right;
+    margin: 0 5px;
+}
+
+/*Headings*/
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0.5em lem;
+    border-radius: 5px;
+}
+
+.hero h1{
+    position: absolute;
+    color: var(--primary-color);
+}
+
+
