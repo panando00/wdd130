@@ -1,0 +1,120 @@
+/*color scheme*/
+:root {
+    --primary-color: #F10505;
+    --secondary-color: #03134A;
+    --accent1-color: #26B507;
+    --accent2-color: #FFFFFF;
+}
+
+
+/*Typography*/
+body{
+    font-family: 'Montserrat' sans-serif;
+    color: var(--secondary-color)
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    margin: 0;
+}
+
+p{
+    margin: 0 0 1em 0;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+/*Headings*/
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+
+/*Buttons*/
+.btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.btn:hover{
+    color: var(--primary-color);
+    background: var(--primary-color);
+}
+
+/*Layout*/
+html, body{
+    height: 100%;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: var(--secondary-color);
+}
+
+header img.logo {
+    width: 20%;
+    margin: 0 auto;
+    display: block
+}
+
+nav a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: var(--primary-color-hover);
+}
+
+section{
+    padding: 2em 0;
+}
+
+
+.hero h1{
+    font-size: 5rem;
+}
+
+.hero article img{
+    max-width: 50%;
+}
+
+.copyright{
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .social-media{
+    display: flex;
+    justify-content: left;
+    margin: 0 5px;
+}
+
+footer img{
+    height: 1.5em;
+}
+
+footer .copyright p{
+    margin: 0
+}

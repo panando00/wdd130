@@ -59,7 +59,7 @@ header h1 {
     color: var(--secondary-color);
 }
 
-/*header spacng*/
+/*header spacing*/
 header {
     padding: 1.5 em 0;
 }
@@ -101,3 +101,4 @@ section h2 {
 section a:hover {
     columns: var(--accent2-color);
 }
+
