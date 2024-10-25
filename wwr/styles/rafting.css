@@ -130,13 +130,145 @@ h4{
 
 nav a{
     display: inline-block;
-    padding: 0.5em lem;
+    padding: 0.5em 1em;
     border-radius: 5px;
 }
 
 .hero h1{
     position: absolute;
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
+.header-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 30%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+#adventures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#adventures h2{
+    text-align: center;
+    order: -1;
+}
+
+#adventures img{
+    width: 100%;
+    height: auto;
+    padding: 0 1em;
+}
+
+#adventures figcaption{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#adventures figcaption:after{
+    content:'''';
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 1px;
+    background: #ddd;
+    margin-top: 1em;
+}
+
+#adventures figcaption:last-child:after{
+    display:none
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer .social-media{
+    display: flex;
+    justify-content: right;
+}
+
+footer .copyright{
+    font-size: 0.8rem;
+    margin-top: 1em;
+}
+
+#history{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#history h2{
+    text-align: center;
+    position: absolute;
+}
+
+#history img{
+    width: 30%;
+    height: auto;
+    padding: 0 1em;
+}
+
+#history p{
+    margin-bottom: 1em;
+}
+
+#history p:first-child{
+    margin-top: 0;
+}
+
+#history p:last-child{
+    margin-bottom: 0;
+}
+
+.hero{
+    height: 225vh;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .client-img{
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.hero .client-text{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+}
 
