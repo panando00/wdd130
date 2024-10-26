@@ -581,3 +581,48 @@ footer .copyright{
         margin-top: 3rem;
     }
 }
+
+
+
+.hero1{
+    height: 120vh;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero1 .client-img{
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.hero1 .client-text{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.hero1 h1{
+    position: absolute;
+    color: var(--accent2-color);
+}
+
+.hero1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container h1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 1vh;
+    background: var(--primary-color);
+}
