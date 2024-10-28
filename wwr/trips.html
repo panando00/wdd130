@@ -1,16 +1,16 @@
 
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-        <title>White Water Rafting</title>
-        <link rel="preconnect" href="https://fonts.googleleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https:fonts.googleleapis.com/css2? family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>White Water Rafting</title>
+    <link rel="preconnect" href="https://fonts.googleleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https:fonts.googleleapis.com/css2? family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</html>
+<body>
     <header>
         <div class="header-wrapper">
             <img class="logo" src="images/logo.png" alt="White Water Rafting" width="200">
@@ -25,41 +25,78 @@
         </div>
     </header>
     <main>
-        <div class="hero1">
-            <img src="images/hero.jpg" alt="Hero Image">
-            <h1>White Water Rafting</h1>
-        </div>
-        <div class="signup-container">
-            <h2>Sign up for our newsletter</h2>
-            <form action="" method="post">
-                <label for="name">Name</label>
-                <input type="text" name="name" paceholder="First Name Last Name" required>                    
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="your@email.com" required>
-                <button type="submit">Sign Up</button>
-            </form>
-            <div class="call-to-action">
-                <h2>Plan Your Adventure Today!</h2>
-                <p>Explore the exciting trips we offer and book your next adventure!</p>
-                <a href="trips.html" class="btn-cta">View Trips &rarr;</a>
-            </div>
-        </div>
-        <div class="grid-container">
-            <div class="grid-item">
-                <img src="images/wwr1.jpg" alt="White Water Rafting Photo">
-                <h3>Family Adventure</h3>
-                <p>Enjoy an unfforgetable family rafting adventure on the beautiful Blue River!</p>
-            </div>
-            <div class="grid-item">
-                <img src="images/istockphoto.jpg" alt="White Water Rafting Photo">
-                <h3>Team Building Excursion</h3>
-                <p>Bring your team together with a thrilling white water rafting team building excursion!</p>
-            </div>
-            <div class="grid-item">
-                <img src="images/big-millard.jpg" alt="White Water Rafting Photo">
-                <h3>Bachelor Party</h3>
-                <p>Celebrate your bachelor party with an adrenaline-fueled white water rafting adventure!</p>
-            </div>
+        <div class="content">
+            <section class="cta">
+                <h2>Ready to book your trip?</h2>
+                <p>
+                    Contact us today to reserve your spot!
+                    <a href="/contact.html">
+                        Contact Us
+                    </a>
+                </p>
+            </section>
+            <section class="trips">
+                <div class="trip">
+                    <img src="images/trip-1.jpg" alt="A scenic river trip through the Grand Canyon">
+                    <h3>Grand Canyon Rafting Trip</h3>
+                    <p>
+                        Explore the depth of the Grand Canyon in an exhilarating, 
+                        once-in-a-lifetime rafting adventure. Witness the stunning beauty
+                        of the Colorado River as you navigate its swift currents, 
+                        adrenaline-pumping rapids, and peaceful riverside camping
+                    </p>
+                </div>
+                <div class="trip">
+                    <img src="images/trip-2.jpg" alt="An intense white-water rafting experience down a wild river">
+                    <h3>Wild River White Water Rafting Trip</h3>
+                    <p>
+                        Embark on an unforgettable journey through the heart of the wilderness
+                        on a wild river white-water rafting trip. Experience the trills of 
+                        navigating class IV and V rapids as you travel through the majestic 
+                        wilderness of some of the most remote and breathtaking landscapes in the world.
+                    </p>
+                </div>
+                <div class="trip">
+                    <img src="images/trip-3.jpg" alt="A family-friendly rafting adventure down a scenic river">
+                    <h3>Family-Friendly River Rafting</h3>
+                    <p>
+                        Enjoy a fun-thrilled, family-friendly rafting adventure that's perfect for
+                        rafters of all ages and skill levels. Float down the river at a leisurely
+                        pace, smoking in the stunningscenery and wildlife, or take on class II and
+                        III rapids for an adrenaline-pumping ride.
+                    </p>
+                </div>
+                <div class="trip-table">
+                    <table>
+                        <thread>
+                            <tr>
+                                <th>Trip Name</th>
+                                <th>Trip Duration</th>
+                                <th>Difficulty Level</th>
+                                <th>Price</th>
+                            </tr>
+                            <tr>
+                                <td>Grand Canyon Rafting</td>
+                                <td>7 Days</td>
+                                <td>Intermediate</td>
+                                <td>$1,999</td>
+                            </tr>
+                            <tr>
+                                <td>Wild River white-water Rafting Trip</td>
+                                <td>3 Days</td>
+                                <td>Expert</td>
+                                <td>$899</td>
+                            </tr>
+                            <tr>
+                                <td>Family-Friendly River Rafting Trip</td>
+                                <td>2 Days</td>
+                                <td>Beginner</td>
+                                <td>$399</td>
+                            </tr>
+                        </thread>
+                    </table>
+                </div>
+            </section>
         </div>
     </main>
     <footer>
@@ -76,5 +113,5 @@
             </a>
         </div>
     </footer>
-    </body>
+</body>
 </html>
