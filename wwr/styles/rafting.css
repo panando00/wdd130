@@ -61,7 +61,7 @@ header h1 {
 
 /*header spacing*/
 header {
-    padding: 1.5 em 0;
+    padding: 1.5em 0;
 }
 
 /*primary color for header links*/
@@ -99,7 +99,7 @@ section h2 {
 
 /*section link color*/
 section a:hover {
-    columns: var(--accent2-color);
+    columns: auto;
 }
 
 .hero img {
@@ -314,11 +314,11 @@ footer .copyright{
     }
 }
 
-@media (min-width: 992p) {
+/*@media (min-width: 992px) {
     .employee-section{
         flex: 0 0 33.33%;
     }
-}
+}*/
 
 @media (min-width: 1200px) {
     .employee-profile{
@@ -477,7 +477,7 @@ footer .copyright{
 .newsletter label{
     display: inline-block;
     cursor: pointer;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     color: var(--accent2-color);
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -521,7 +521,7 @@ footer .copyright{
 .signup-container input,
 .signup-container button {
     margin: 0.5rem 0;
-    padding: 0.5ren 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .signup-container button {
@@ -643,7 +643,7 @@ footer .copyright{
 
 .content .trip-table table td {
     padding: 10px;
-    border: 1p solid black;
+    border: 1px solid black;
     vertical-align: middle;
 }
 
@@ -654,11 +654,11 @@ footer .copyright{
 }*/
 
 .content .trip-table table tr:nth-child(even) {
-    background: #efefef;
+    background: #871515;
 }
 
 .content .trip-table table tr:nth-child(odd) {
-    background: #ffffff;
+    background: var(--primary-color);
 }
 
 a {
@@ -686,3 +686,5 @@ a:hover {
 .content .trip img {
     max-width: 100%;
 }
+
+
