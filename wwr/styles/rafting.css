@@ -272,7 +272,7 @@ footer .copyright{
     padding: 1em;
 }
 
-/*employee section*/
+/*employee */
 .employee-section{
     display: flex;
     flex-wrap: wrap;
@@ -623,7 +623,7 @@ footer .copyright{
     left: 0;
     width: 100%;
     text-align: center;
-    height: 1vh;
+    height: 0vh;
     background: var(--primary-color);
 }
 
@@ -687,4 +687,16 @@ a:hover {
     max-width: 100%;
 }
 
+.employee-photo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.employee-profile {
+    width: 55%;
+    height: auto;
+    margin: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
